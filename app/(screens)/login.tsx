@@ -42,7 +42,7 @@ const Login = () => {
       setMessage(null);
       // Call backend for authentication
 
-      const loginRes = await axios.post('http://localhost:3000/api/auth/login', {
+      const loginRes = await axios.post('http://xo8kswkgok0c0g0ggo08kgog.103.127.136.136.sslip.io/api/auth/login', {
         email: credentials.email,
         password: credentials.password
       })

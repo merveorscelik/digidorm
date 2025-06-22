@@ -45,7 +45,7 @@ const MachineStatusScreen = () => {
   const [currentMarkedDates, setCurrentMarkedDates] = useState<SelectedDate[]>([]);
 
   const fetchMachines = async () => {
-    axios.get('http://localhost:3000/api/utillities/washing-machines')
+    axios.get('http://xo8kswkgok0c0g0ggo08kgog.103.127.136.136.sslip.io/api/utillities/washing-machines')
       .then(res => {
         const { data } = res.data;
 
